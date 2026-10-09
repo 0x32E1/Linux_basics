@@ -1,0 +1,4 @@
+Chain INPUT (policy ACCEPT 6 packets, 1470 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    6  1470 LIBVIRT_INP  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 DROP       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:80
